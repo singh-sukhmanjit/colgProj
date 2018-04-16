@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Bootstrap Tutorial</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<style>
+
+.jumbotron{
+    background-color:#C7BDBD;
+    color:BLACK;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+.btnn{
+  float: right;
+
+
+}
+</style>
+
+</head>
+<body>
+
+  <div class="container">
+
+  <!-- page-header adds space aroundtext and enlarges it. It also adds an underline at the end -->
+  <div class="jumbotron">
+  <h1 align="center">To Do List App </h1>
+  </div>
+
+  <div class="input-group input-group-sm">
+    <input type="text" class="form-control" placeholder=" ">
+    <span class="input-group-btn">
+      <button class="btn btn-default">+</button>
+      </span>
+    </div><br>
+
+    <ul class="list-group">
+      <li class="list-group-item">
+        <input type="checkbox">  Go To Gym
+        <button class="btnn" href="#">
+          delete
+        </button>
+
+      </li>
+      <li class="list-group-item">
+              <input type="checkbox"> Meeeting With Client
+              <button class="btnn" href="#">
+                delete
+              </button>
+      </li>
+    <li class="list-group-item">
+            <input type="checkbox">  Call Mom
+            <button class="btnn" href="#">
+              delete
+            </button>    </li>
+    <li class="list-group-item">
+        <input type="checkbox"> Plan My Trip
+        <button class="btnn" href="#">
+          delete
+        </button>
+    </li>
+</ul>
+</div>
+    </div><br>
+</div>
+      <script src ="../jquery.js"></script>
+  <script src=" js/bootstrap.min.js"></script>
+  </html>
+  <body>

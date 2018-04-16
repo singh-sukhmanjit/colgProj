@@ -1,0 +1,23 @@
+atom packages:
+  ctrl+shift+p
+  ternjs
+  minimap
+  terminal
+  atom beautify // ctrl+alt+b for auto indentation
+  atom liveserver // start server using ctrl+alt+l
+  ctrl+shift+d for duplication of lines
+  ctrl+shift+click for selecting multiple lines
+
+For importing jquery
+  Download it from query.com
+
+function() {} // () => {}
+main() // window.onload = () => {}
+class className{
+  constructor() {}
+hello() {
+    console.log('hello world')
+  }
+}
+var obj = new className();
+obj.hello();

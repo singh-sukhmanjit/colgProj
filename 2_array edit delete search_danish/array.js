@@ -13,38 +13,35 @@ window.onload = function() {
 
   $('#search').on('click', function(){
     var value = $('input[name=search]').val();
+    var z=0;
     for(i=0;i<a.length;i++){
       if(a[i]==value){
-        console.log('available at '+ (i+1) + ' place');
-      }
-      else{
-        console.log(value +' not available');
+        console.log(value + ' available at '+ (i+1) + ' place');
+        z=1;
       }
     }
+      if(z==0)
+      {
+        console.log(value +' not available');
+      }
    $('input[name=search]')[0].value = '';
   })
   $('#edit').on('click', function(){
     var value = $('input[name=edit]').val();
     var newvalue= $('input[name=new]').val();
+    var z=0;
     for(i=0;i<a.length;i++){
-      if(a[i]==value){
-        c=a[i];
+      if(a[i]==value){;
         a[i]=newvalue;
+        z=1;
       }
-      else{
+      }
+      if(z==0)
+      {
         console.log(value +' not available');
-      }
       }
       console.log(a);
    $('input[name=edit]')[0].value = '';
    $('input[name=new]')[0].value = '';
   })
 }
-
-//function(){
-  //for(i=0;i<a.length;i++)}{
-  //  if(a[i]==value){
-  //    console.log('true');
-  //  }
-  //}
-////

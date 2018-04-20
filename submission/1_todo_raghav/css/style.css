@@ -1,0 +1,35 @@
+#lll{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.listx{
+
+    height: 35px;
+    padding-left: 3px;
+
+
+}
+.listxx{
+  border: thin solid #e9ecef;
+  border-radius: 6px;
+  padding: 0px;
+
+}
+.ddd{
+  float: right;
+  color: red;
+
+}
+.mar{
+  border-bottom: thin solid #e9ecef;
+}
+#back{
+  background-color: #e9ecef;
+  font-size: 33px;
+}
+#iii{
+  width: 142px !important;
+
+}

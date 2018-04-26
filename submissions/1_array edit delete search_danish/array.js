@@ -7,8 +7,10 @@ window.onload = function() {
     console.log(a)
     })
   $('#delete').on('click', function() {
-    a.pop();
+    var t=$('input[name=delete]').val();
+    a.splice(t-1,1);
     console.log(a)
+    $('input[name=delete]')[0].value = '';
   })
 
   $('#search').on('click', function(){
@@ -44,7 +46,7 @@ window.onload = function() {
    $('input[name=edit]')[0].value = '';
    $('input[name=new]')[0].value = '';
   })
-//  $('#showdata').on('click',function(){
+  //  $('#showdata').on('click',function(){
 
 //    for (var i = 0; i < a.length; i++) {
   //    b=a[i];

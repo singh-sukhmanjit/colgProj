@@ -51,15 +51,6 @@ var arr = [
   }
 ]
 
-var list = '';
-
-
-
-
-
-
-
-
 var listData = [
   {
     inputValue: 'Go To Gym',
@@ -96,7 +87,6 @@ function renderList() {
 
 window.onload = function() {
   renderList();
-  // console.log(arr)
   var data = '';
 
   arr.forEach((item, index) => {

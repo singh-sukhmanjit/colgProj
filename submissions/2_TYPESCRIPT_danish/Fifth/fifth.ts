@@ -1,7 +1,13 @@
-export class Danish
+class Danish
 {
-constructer(private _x?:number,private _y?:number){}
+  public a;
+  public b;
+constructor(_x:number,_y:number){
+  this.a = _x;
+  this.b = _y;
+}
  show() {
-   document.write("X: "+this._x+" Y: "+this._y)
+   document.write("X: "+this.a+" Y: "+this.b);
  }
 }
+export {Danish};

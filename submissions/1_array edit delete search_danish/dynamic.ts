@@ -46,16 +46,4 @@ window.onload = function() {
    $('input[name=edit]')[0].value = '';
    $('input[name=new]')[0].value = '';
   })
-  //  $('#showdata').on('click',function(){
-
-//    for (var i = 0; i < a.length; i++) {
-  //    b=a[i];
-  //    document.getELementById("data").innerHTML= b;
-  //  }
-  ///document.write('<input type="button" value="Back page" id="back">')
-   //$('#back').on('click',function(event) {
-    // history.back();
-  //}
-//   console.log(a);)
-//$('#showdata').on('click',$('#data').innerHTML=again();)
 }
